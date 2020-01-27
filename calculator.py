@@ -17,17 +17,16 @@ def power(x, y) :
 
 
 #Take input value
+
+num1 =int(input("Enter the first number:"))
+num2 =int(input ("Enter the second number:"))
 print("Select the following operation\n" \
       "1.Add\n"\
       "2. Substract\n" \
       "3. Multiply\n" \
       "4. Divide\n" \
-      "5. power\n"
-      )
-choice =int (input("Enter choice (1/2/3/4/5)"))
-num1 =int(input("Enter the first number:"))
-num2 =int(input ("Enter the second number:"))
-
+      "5. power\n")
+choice =int (input("Enter choice (1/2/3/4/5)")
 if choice == 1:
     print(num1, "+", num2, "=", add(num1, num2))
 elif choice == 2:
